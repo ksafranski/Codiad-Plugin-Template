@@ -1,0 +1,12 @@
+[{
+    "author": "YOUR_NAME",
+    "version": "1.0.X",
+    "name": "PLUGIN NAME",
+    "rightbar": [
+        {
+            "action": "codiad.MYPLUGIN.SOME_METHOD();",
+            "icon": "icon-{IMAGE}",
+            "title": "PLUGIN NAME"
+        }
+    ]
+}]
