@@ -1,12 +1,20 @@
 [{
-    "author": "YOUR_NAME",
-    "version": "1.0.X",
-    "name": "PLUGIN NAME",
+    "author": "Your Name",
+    "version": "Your Version",
+    "name": "Your Plugin Name",
     "rightbar": [
         {
-            "action": "codiad.MYPLUGIN.SOME_METHOD();",
-            "icon": "icon-{IMAGE}",
-            "title": "PLUGIN NAME"
+            "action": "codiad.yourplugin.doSomething();",
+            "icon": "icon-info-circled",
+            "title": "This will be displayed in the rightbar"
+        }
+    ],
+    "contextmenu": [
+        {
+            "action": "codiad.yourplugin.doSomething();",
+            "icon": "icon-info-circled",
+            "applies-to": "both",
+            "title": "This will be displayed in the contextmenu"
         }
     ]
 }]
