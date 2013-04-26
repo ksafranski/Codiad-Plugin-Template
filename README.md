@@ -10,3 +10,5 @@ You can add CSS files, images, other libraries, etc. as needed for the plugin to
 
 Since you have access to the `global.codiad` object you can also utilize other components in the system to modify the 
 editor, work with projects, run searches, etc.
+
+For a style guide and icon listing view the `/style_guide.php` file in the root of your Codiad install instance.

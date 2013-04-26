@@ -4,15 +4,15 @@
     "name": "Your Plugin Name",
     "rightbar": [
         {
-            "action": "codiad.yourplugin.doSomething();",
-            "icon": "icon-info-circled",
+            "action": "codiad.MY_PLUGIN.SOME_METHOD();",
+            "icon": "icon-NAME",
             "title": "This will be displayed in the rightbar"
         }
     ],
     "contextmenu": [
         {
-            "action": "codiad.yourplugin.doSomething();",
-            "icon": "icon-info-circled",
+            "action": "codiad.MY_PLUGIN.SOME_METHOD();",
+            "icon": "icon-NAME",
             "applies-to": "both",
             "title": "This will be displayed in the contextmenu"
         }
