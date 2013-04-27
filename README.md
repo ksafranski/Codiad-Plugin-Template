@@ -43,7 +43,7 @@ The `plugin.json` file describes how the plugin will interact with Codiad. Most 
 `author`, `version` and `name` are the core info, describing the plugin.
 
 `rightbar` is used if you want the plugin to appear in the right-hand bar. The `action` parameter should 
-call a method (typically `init()`) in the init.js file.
+call a method in the init.js file.
 
 `contextmenu` is similar format to `rightbar` but gives the ability to add context menu items to the file manager. 
 The `applies-to` property specifies whether the menu entry will appear for `directory`(s) `file`(s) or `both`.
